@@ -1,7 +1,7 @@
 //index.js
 
 function helloNpm() {
-  return "hello NPM 12345"
+  return "hello NPM qwerty"
 }
 
 module.exports = helloNpm
