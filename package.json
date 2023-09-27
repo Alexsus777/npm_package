@@ -2,7 +2,12 @@
   "name": "npm_test_alexsus",
   "version": "1.0.2",
   "description": "test",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Alexsus777/npm_package.git"
@@ -15,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Alexsus777/npm_package/issues"
   },
-  "homepage": "https://github.com/Alexsus777/npm_package#readme"
+  "homepage": "https://github.com/Alexsus777/npm_package#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
